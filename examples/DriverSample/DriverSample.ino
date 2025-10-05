@@ -14,6 +14,7 @@
  * M5AtomicMotion: https://github.com/m5stack/M5Atomic-Motion
  */
 
+#include <Wire.h>
 #include "M5Unified.h"
 #include "M5GFX.h"
 #include "M5AtomicMotion.h"
@@ -21,6 +22,8 @@
 M5AtomicMotion AtomicMotion;
 
 void setup() {
+
+
     auto cfg = M5.config();
     M5.begin(cfg);
 
@@ -55,6 +58,7 @@ void setup() {
     M5.Display.drawString("Motion", M5.Display.width() / 2,
                           M5.Display.height() / 2);
 
+    Serial.begin(115200);
     Serial.println("Atomic Motion Test");
 }
 

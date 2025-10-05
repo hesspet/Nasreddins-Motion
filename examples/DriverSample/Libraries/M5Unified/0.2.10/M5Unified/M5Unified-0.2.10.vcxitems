@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding ="utf-8" ?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" >
+  <PropertyGroup Label="Globals" >
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <ItemsProjectGuid>{f71294e0-36e4-492a-99b9-bcc926c3c44b}</ItemsProjectGuid>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);$(MSBuildThisFileDirectory)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ProjectCapability Include="SourceItemsFromImports" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\M5Unified.cpp" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\utility\Button_Class.cpp" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\utility\I2C_Class.cpp" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\utility\IMU_Class.cpp" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\utility\Log_Class.cpp" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\utility\M5Timer.cpp" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\utility\Mic_Class.cpp" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\utility\PI4IOE5V6408_Class.cpp" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\utility\Power_Class.cpp" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\utility\RTC_Class.cpp" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\utility\Speaker_Class.cpp" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\utility\Touch_Class.cpp" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\utility\imu\AK8963_Class.cpp" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\utility\imu\BMI270_Class.cpp" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\utility\imu\BMM150_Class.cpp" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\utility\imu\IMU_Base.cpp" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\utility\imu\MPU6886_Class.cpp" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\utility\imu\SH200Q_Class.cpp" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\utility\power\AW32001_Class.cpp" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\utility\power\AXP192_Class.cpp" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\utility\power\AXP2101_Class.cpp" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\utility\power\BQ27220_Class.cpp" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\utility\power\INA226_Class.cpp" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\utility\power\INA3221_Class.cpp" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\utility\power\IP5306_Class.cpp" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\utility\rtc\PCF8563_Class.cpp" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\utility\rtc\RTC_Base.cpp" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\utility\rtc\RX8130_Class.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\gitTagVersion.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\M5Unified.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\M5Unified.hpp" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\utility\Button_Class.hpp" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\utility\I2C_Class.hpp" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\utility\IMU_Class.hpp" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\utility\IOExpander_Base.hpp" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\utility\Log_Class.hpp" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\utility\M5Timer.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\utility\m5unified_common.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\utility\Mic_Class.hpp" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\utility\PI4IOE5V6408_Class.hpp" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\utility\Power_Class.hpp" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\utility\RTC_Class.hpp" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\utility\Speaker_Class.hpp" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\utility\Touch_Class.hpp" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\utility\imu\AK8963_Class.hpp" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\utility\imu\BMI270_Class.hpp" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\utility\imu\BMM150_Class.hpp" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\utility\imu\IMU_Base.hpp" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\utility\imu\MPU6886_Class.hpp" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\utility\imu\SH200Q_Class.hpp" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\utility\power\AW32001_Class.hpp" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\utility\power\AXP192_Class.hpp" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\utility\power\AXP2101_Class.hpp" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\utility\power\BQ27220_Class.hpp" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\utility\power\INA226_Class.hpp" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\utility\power\INA3221_Class.hpp" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\utility\power\IP5306_Class.hpp" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\utility\rtc\PCF8563_Class.hpp" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\utility\rtc\RTC_Base.hpp" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\utility\rtc\RX8130_Class.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="$(MSBuildThisFileDirectory)CMakeLists.txt" />
+<Text Include="$(MSBuildThisFileDirectory)library.properties" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)component.mk" />
+<None Include="$(MSBuildThisFileDirectory)library.json" />
+<None Include="$(MSBuildThisFileDirectory)LICENSE" />
+<None Include="$(MSBuildThisFileDirectory)README.md" />
+<None Include="$(MSBuildThisFileDirectory)src\utility\imu\BMI270_config.inl" />
+  </ItemGroup>
+</Project>

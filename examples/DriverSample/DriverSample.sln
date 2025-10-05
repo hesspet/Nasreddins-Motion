@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36310.24
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DriverSample", "DriverSample.vcxproj", "{E94F94DF-E6C4-4D1A-FFCA-EDA5D7DB8EDA}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "M5Atomic-Motion-1.0.0", "Libraries\M5Atomic-Motion\1.0.0\M5Atomic-Motion\M5Atomic-Motion-1.0.0.vcxitems", "{40B6BE75-58DA-409A-A65B-656893112378}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "M5GFX-0.2.15", "Libraries\M5GFX\0.2.15\M5GFX\M5GFX-0.2.15.vcxitems", "{90E6D73F-9BBD-4E83-A395-B18DD0647222}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "M5Unified-0.2.10", "Libraries\M5Unified\0.2.10\M5Unified\M5Unified-0.2.10.vcxitems", "{F71294E0-36E4-492A-99B9-BCC926C3C44B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Wire-3.3.0", "Libraries\Wire\3.3.0\Wire\Wire-3.3.0.vcxitems", "{9BDD047E-BB64-41EF-9F43-4EFB95AED1F1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM = Debug|ARM
+		Debug|ARM64 = Debug|ARM64
+		Release|ARM = Release|ARM
+		Release|ARM64 = Release|ARM64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E94F94DF-E6C4-4D1A-FFCA-EDA5D7DB8EDA}.Debug|ARM.ActiveCfg = Debug|ARM
+		{E94F94DF-E6C4-4D1A-FFCA-EDA5D7DB8EDA}.Debug|ARM.Build.0 = Debug|ARM
+		{E94F94DF-E6C4-4D1A-FFCA-EDA5D7DB8EDA}.Debug|ARM.Deploy.0 = Debug|ARM
+		{E94F94DF-E6C4-4D1A-FFCA-EDA5D7DB8EDA}.Debug|ARM64.ActiveCfg = Debug|ARM64
+		{E94F94DF-E6C4-4D1A-FFCA-EDA5D7DB8EDA}.Debug|ARM64.Build.0 = Debug|ARM64
+		{E94F94DF-E6C4-4D1A-FFCA-EDA5D7DB8EDA}.Debug|ARM64.Deploy.0 = Debug|ARM64
+		{E94F94DF-E6C4-4D1A-FFCA-EDA5D7DB8EDA}.Release|ARM.ActiveCfg = Release|ARM
+		{E94F94DF-E6C4-4D1A-FFCA-EDA5D7DB8EDA}.Release|ARM.Build.0 = Release|ARM
+		{E94F94DF-E6C4-4D1A-FFCA-EDA5D7DB8EDA}.Release|ARM.Deploy.0 = Release|ARM
+		{E94F94DF-E6C4-4D1A-FFCA-EDA5D7DB8EDA}.Release|ARM64.ActiveCfg = Release|ARM64
+		{E94F94DF-E6C4-4D1A-FFCA-EDA5D7DB8EDA}.Release|ARM64.Build.0 = Release|ARM64
+		{E94F94DF-E6C4-4D1A-FFCA-EDA5D7DB8EDA}.Release|ARM64.Deploy.0 = Release|ARM64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E3379CC7-F00A-4BC6-82BC-CD0E538FBCA7}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Libraries\M5Atomic-Motion\1.0.0\M5Atomic-Motion\M5Atomic-Motion-1.0.0.vcxitems*{40b6be75-58da-409a-a65b-656893112378}*SharedItemsImports = 9
+		Libraries\M5GFX\0.2.15\M5GFX\M5GFX-0.2.15.vcxitems*{90e6d73f-9bbd-4e83-a395-b18dd0647222}*SharedItemsImports = 9
+		Libraries\Wire\3.3.0\Wire\Wire-3.3.0.vcxitems*{9bdd047e-bb64-41ef-9f43-4efb95aed1f1}*SharedItemsImports = 9
+		Libraries\M5Atomic-Motion\1.0.0\M5Atomic-Motion\M5Atomic-Motion-1.0.0.vcxitems*{e94f94df-e6c4-4d1a-ffca-eda5d7db8eda}*SharedItemsImports = 4
+		Libraries\M5GFX\0.2.15\M5GFX\M5GFX-0.2.15.vcxitems*{e94f94df-e6c4-4d1a-ffca-eda5d7db8eda}*SharedItemsImports = 4
+		Libraries\M5Unified\0.2.10\M5Unified\M5Unified-0.2.10.vcxitems*{e94f94df-e6c4-4d1a-ffca-eda5d7db8eda}*SharedItemsImports = 4
+		Libraries\Wire\3.3.0\Wire\Wire-3.3.0.vcxitems*{e94f94df-e6c4-4d1a-ffca-eda5d7db8eda}*SharedItemsImports = 4
+		Libraries\M5Unified\0.2.10\M5Unified\M5Unified-0.2.10.vcxitems*{f71294e0-36e4-492a-99b9-bcc926c3c44b}*SharedItemsImports = 9
+	EndGlobalSection
+EndGlobal
