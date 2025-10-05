@@ -1,0 +1,61 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "PIO Build (DriverSample)",
+            "type": "shell",
+            "command": "platformio",
+            "args": [
+                "run",
+                "--project-dir",
+                "examples/DriverSample"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": [
+                "$platformio"
+            ],
+            "presentation": {
+                "clear": true,
+                "panel": "shared"
+            }
+        },
+        {
+            "label": "PIO Upload (DriverSample)",
+            "type": "shell",
+            "command": "platformio",
+            "args": [
+                "run",
+                "--target",
+                "upload",
+                "--project-dir",
+                "examples/DriverSample"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": false
+            },
+            "problemMatcher": [
+                "$platformio"
+            ],
+            "presentation": {
+                "clear": true,
+                "panel": "shared"
+            }
+        },
+        {
+            "label": "PIO Monitor (DriverSample)",
+            "type": "shell",
+            "command": "platformio",
+            "args": [
+                "device",
+                "monitor",
+                "--project-dir",
+                "examples/DriverSample"
+            ],
+            "problemMatcher": []
+        }
+    ]
+}
